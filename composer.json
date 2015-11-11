@@ -1,7 +1,7 @@
 {
 	"name": "wp-pay-gateways/ideal-simulator-ideal-advanced",
-	"description": "iDEAL Simulator - iDEAL Professional / Advanced / Zelfbouw driver for the WordPress payment processing library.",
-	"keywords": ["wordpress", "wp", "pay", "simulator", "ideal", "advanced", "gateway", "pronamic"],
+	"description": "[DEPRECATED] iDEAL Simulator - iDEAL Professional / Advanced / Zelfbouw driver for the WordPress payment processing library.",
+	"keywords": ["deprecated", "wordpress", "wp", "pay", "simulator", "ideal", "advanced", "gateway", "pronamic"],
 	"homepage": "http://www.wp-pay.org/gateways/ideal-simulator-ideal-advanced/",
 	"license": "GPL",
 	"authors": [
