@@ -18,4 +18,14 @@ class Pronamic_WP_Pay_Gateways_IDealSimulator_IDealAdvanced_ConfigTest extends P
 
 		$this->assertEquals( $expected, $url );
 	}
+
+	public function test_certificates() {
+		$config = new Pronamic_WP_Pay_Gateways_IDealSimulator_IDealAdvanced_Config();
+
+		$certificates = $config->get_certificates();
+
+		foreach ( $certificates as $certificate ) {
+			$this->assertFileExists( $certificate );
+		}
+	}
 }
